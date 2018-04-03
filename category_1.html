@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio-Plants</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/category_1.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="top_navbar">
+    <div class="container-fluid navbar_container" id="top_menus">
+        <div class="navbar-header" id="topnav_brand">
+            <a class="navbar-brand" href="/portfolio-plants">
+                <img src="http://i.imgur.com/U1BzlEZ.png?1"/ id="site_logo">
+            </a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id="sm-menu-btn">
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="topnav_menu">
+            <ul class="nav navbar-nav" id="main_topnav">
+                <li class="border-menu"><a href="/portfolio-plants/login.html">로그인/회원가입</a></li>
+                <li class="border-menu"><a href="/portfolio-plants/orderNShipping.html">주문배송조회</a></li>
+                <li><a href="/portfolio-plants/community.html">커뮤니티</a></li>
+                <li class="border-menu"><a href="/portfolio-plants/shoppingCart.html">장바구니</a></li>
+            </ul>
+            <ul class="nav navbar-nav" id="sub_topnav">
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">다육식물</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">다육세트</a>
+                </li>
+                <li>
+                    <a href="/portfolio-plants/category_1.html">화분</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">도구</a>
+                </li>
+                <li>
+                    <a href="/portfolio-plants/category_1.html">장식</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">SALE</a>
+                </li>
+                <li class="border-menu" id="sub_topnav_search">
+                   <div class="input-group">
+                        <input type="text" class="form-control input-lg" id="sub_topnav_input">
+                        <div class="input-group-addon btn" id="nav_search_addon">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div><!-- /.container-fluid -->
+    <div class="container-fluid navbar_container" id="main_navbar">
+        <div class="navbar-collapse collapse" id="mainnav_menu">
+            <ul class="nav navbar-nav" id="mainnav_menus">
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">다육식물</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">다육세트</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">화분</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">도구</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">장식</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">SALE</a>
+                </li>
+                <li class="border-menu" id="mainnav_search_xs">
+                   <div class="input-group" id="nav_search_input_xs">
+                        <input type="text" class="form-control input-lg">
+                        <div class="input-group-addon btn" id="nav_search_addon">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav" id="mainnav_search">
+                <li class="border-menu">
+                      <form class="navbar-form navbar-left" role="search">
+                       <div class="input-group" id="nav_search_input">
+                            <input type="text" class="form-control input-lg">
+                            <div class="input-group-addon btn" id="nav_search_addon">
+                                <a href="#"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                      </form>
+                </li>
+            </ul>
+        </div>
+    </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container-fluid wrapper" id="wrapper_all">
+    <div class="row contents">
+        <div class="col-lg-2 col-md-2 hidden-sm hidden-xs" id="sideMenu">
+            <ul id="side_list">
+                <a href="/portfolio-plants/category_1.html">
+                    <li class="side_title"><h3 class="ctg_title">모든 상품</h3></li>
+                </a>
+                <a href="/portfolio-plants/category_1.html">
+                    <li class="side_ctg"><h3>선인장</h3></li>
+                </a>
+                <a href="/portfolio-plants/category_1.html">
+                    <li class="side_ctg"><h3>리톱스</h3></li>
+                </a>
+                <a href="/portfolio-plants/category_1.html">
+                    <li class="side_ctg"><h3>두들레야</h3></li>
+                </a>
+                <a href="/portfolio-plants/category_1.html">
+                    <li class="side_ctg"><h3>코노피튬</h3></li>
+                </a>
+                <a href="/portfolio-plants/category_1.html">
+                    <li class="side_ctg"><h3>하월시아</h3></li>
+                </a>
+                <a href="/portfolio-plants/category_1.html">
+                    <li class="side_ctg"><h3>크리술라</h3></li>
+                </a>
+                <a href="/portfolio-plants/category_1.html">
+                    <li class="side_ctg"><h3>기타다육</h3></li>
+                </a>
+                <a href="/portfolio-plants/category_1.html">
+                    <li class="side_etc"><h3>인기상품</h3></li>
+                </a>
+                <a href="/portfolio-plants/category_1.html">
+                    <li class="side_etc last"><h3>SALE</h3></li>
+                </a>
+                <a href="/portfolio-plants/category_1.html">
+                    <li class="side_mail"><h3>다육 제보</h3></li>
+                </a>
+            </ul>
+        </div>
+        <div class="col-lg-10 col-md-10" id="contents">
+            <div class="row" id="category_info">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="ctg_info_img">
+                    <img src="http://cfile22.uf.tistory.com/image/237A073E56AB4C74026731">
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" id="sideMenu_select">
+                    <select class="form-control input-lg menu_hide_big">
+                        <option class="mhb"><h4 class="ctg_title">모든 상품</h4></option>
+                        <option class="mhb"><h4>선인장</h4></option>
+                        <option class="mhb" selected><h4>리톱스</h4></option>
+                        <option class="mhb"><h4>두들레야</h4></option>
+                        <option class="mhb"><h4>코노피튬</h4></option>
+                        <option class="mhb"><h4>하월시아</h4></option>
+                        <option class="mhb"><h4>크리술라</h4></option>
+                        <option class="mhb"><h4>기타다육</h4></option>
+                        <option class="mhb"><h4>인기상품</h4></option>
+                        <option class="mhb"><h4>SALE</h4></option>
+                        <option class="mhb"><h4>다육제보</h4></option>
+                    </select>
+                    <div id="ctg_info_text">
+                        <h3 class="show_big" id="ctg_info_title">리톱스</h3>
+                        <h4 id="ctg_info_guide">리톱스(Lithops)는 남아프리카 일대의 다육식물입니다.
+                            배수가 잘 되는 흙에서 건조하게 길러야하며,
+                            하루 4시간 정도 반양지에서 볕을 쬐이고 그늘로 옮깁니다.
+                            과습에 취약하기 때문에 스프레이로 물을 뿌려 급수하고
+                            흙이 완전히 마르기 전에는 물을 주지 않아야합니다.</h4>
+                    </div>
+                </div>
+            </div>
+            <div id="contents_wrapper">
+                <div class="row" id="mini_nav">
+                    <div id="nav_reorder">
+                        <a href="/portfolio-plants/category_1.html">
+                            <div class="col-lg-2 col-sm-2 nav_reorder">
+                                <h4 class="bars">신상 순</h4>
+                            </div>
+                        </a>
+                        <a href="/portfolio-plants/category_1.html">
+                            <div class="col-lg-2 col-sm-2 nav_reorder">
+                                <h4 class="bars">인기 순</h4>
+                            </div>
+                        </a>
+                        <a href="/portfolio-plants/category_1.html">
+                            <div class="col-lg-2 col-sm-2 nav_reorder">
+                                <h4>가격 순</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 menu_hide_big" id="nav_reorder_select">
+                        <select class="form-control input-lg" id="select_list">
+                            <option><h4>신상 순</h4></option>
+                            <option><h4>인기 순</h4></option>
+                            <option><h4>가격 순</h4></option>
+                        </select>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-9 hide_mb" id="search_nav">
+                        <div class="input-group" id="search_input">
+                            <input type="text" class="form-control input-lg" id="searchKeyword"
+                                   placeholder="">
+                            <div class="input-group-addon btn"><i class="fa fa-search"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-mobile show_mb" id="mb_search_input">
+                        <input type="text" class="form-control input-lg" id="searchKeyword"
+                               placeholder="">
+                    </div>
+                    <div class="col-mobile show_mb" id="mb_search_btn">
+                        <button class="btn btn-block btn-lg">검색</button>
+                    </div>
+                </div>
+                <div class="row" id="item_list">
+                    <div class="col-lg-3 col-sm-4 col-xs-6 col-mobile item">
+                        <div class="item_img_wrapper">
+                            <div class="item_img">
+                                <a href="#">
+                                    <div class="box_fav show_hover"><h4><i class="fa fa-star"></i></h4></div>
+                                </a>
+                                <a href="/portfolio-plants/shoppingCart.html">
+                                    <div class="box_cart show_hover"><h4>+ 장바구니 담기</h4></div>
+                                </a>
+                                <a href="/portfolio-plants/productInfo.html">
+                                    <div class="img_pic"><img src="http://i.imgur.com/VLuFSuG.jpg"/></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_info">
+                            <h3 class="item_name">리톱스S</h3>
+                            <h5 class="item_bino">Lithops salicola</h5>
+                            <h3 class="item_price">7000원</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-xs-6 col-mobile item">
+                        <div class="item_img_wrapper">
+                            <div class="item_img">
+                                <a href="#">
+                                    <div class="box_fav show_hover"><h4><i class="fa fa-star"></i></h4></div>
+                                </a>
+                                <a href="/portfolio-plants/shoppingCart.html">
+                                    <div class="box_cart show_hover"><h4>+ 장바구니 담기</h4></div>
+                                </a>
+                                <a href="/portfolio-plants/productInfo.html">
+                                    <div class="img_pic"><img src="http://i.imgur.com/VLuFSuG.jpg"/></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_info">
+                            <h3 class="item_name">리톱스S</h3>
+                            <h5 class="item_bino">Lithops salicola</h5>
+                            <h3 class="item_price">7000원</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-xs-6 col-mobile item">
+                        <div class="item_img_wrapper">
+                            <div class="item_img">
+                                <a href="#">
+                                    <div class="box_fav show_hover"><h4><i class="fa fa-star"></i></h4></div>
+                                </a>
+                                <a href="/portfolio-plants/shoppingCart.html">
+                                    <div class="box_cart show_hover"><h4>+ 장바구니 담기</h4></div>
+                                </a>
+                                <a href="/portfolio-plants/productInfo.html">
+                                    <div class="img_pic"><img src="http://i.imgur.com/VLuFSuG.jpg"/></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_info">
+                            <h3 class="item_name">리톱스S</h3>
+                            <h5 class="item_bino">Lithops salicola</h5>
+                            <h3 class="item_price">7000원</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-xs-6 col-mobile item">
+                        <div class="item_img_wrapper">
+                            <div class="item_img">
+                                <a href="#">
+                                    <div class="box_fav show_hover"><h4><i class="fa fa-star"></i></h4></div>
+                                </a>
+                                <a href="/portfolio-plants/shoppingCart.html">
+                                    <div class="box_cart show_hover"><h4>+ 장바구니 담기</h4></div>
+                                </a>
+                                <a href="/portfolio-plants/productInfo.html">
+                                    <div class="img_pic"><img src="http://i.imgur.com/VLuFSuG.jpg"/></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_info">
+                            <h3 class="item_name">리톱스S</h3>
+                            <h5 class="item_bino">Lithops salicola</h5>
+                            <h3 class="item_price">7000원</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-xs-6 col-mobile item">
+                        <div class="item_img_wrapper">
+                            <div class="item_img">
+                                <a href="#">
+                                    <div class="box_fav show_hover"><h4><i class="fa fa-star"></i></h4></div>
+                                </a>
+                                <a href="/portfolio-plants/shoppingCart.html">
+                                    <div class="box_cart show_hover"><h4>+ 장바구니 담기</h4></div>
+                                </a>
+                                <a href="/portfolio-plants/productInfo.html">
+                                    <div class="img_pic"><img src="http://i.imgur.com/VLuFSuG.jpg"/></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_info">
+                            <h3 class="item_name">리톱스S</h3>
+                            <h5 class="item_bino">Lithops salicola</h5>
+                            <h3 class="item_price">7000원</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-xs-6 col-mobile item">
+                        <div class="item_img_wrapper">
+                            <div class="item_img">
+                                <a href="#">
+                                    <div class="box_fav show_hover"><h4><i class="fa fa-star"></i></h4></div>
+                                </a>
+                                <a href="/portfolio-plants/shoppingCart.html">
+                                    <div class="box_cart show_hover"><h4>+ 장바구니 담기</h4></div>
+                                </a>
+                                <a href="/portfolio-plants/productInfo.html">
+                                    <div class="img_pic"><img src="http://i.imgur.com/VLuFSuG.jpg"/></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_info">
+                            <h3 class="item_name">리톱스S</h3>
+                            <h5 class="item_bino">Lithops salicola</h5>
+                            <h3 class="item_price">7000원</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-xs-6 col-mobile item">
+                        <div class="item_img_wrapper">
+                            <div class="item_img">
+                                <a href="#">
+                                    <div class="box_fav show_hover"><h4><i class="fa fa-star"></i></h4></div>
+                                </a>
+                                <a href="/portfolio-plants/shoppingCart.html">
+                                    <div class="box_cart show_hover"><h4>+ 장바구니 담기</h4></div>
+                                </a>
+                                <a href="/portfolio-plants/productInfo.html">
+                                    <div class="img_pic"><img src="http://i.imgur.com/VLuFSuG.jpg"/></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_info">
+                            <h3 class="item_name">리톱스S</h3>
+                            <h5 class="item_bino">Lithops salicola</h5>
+                            <h3 class="item_price">7000원</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-xs-6 col-mobile item">
+                        <div class="item_img_wrapper">
+                            <div class="item_img">
+                                <a href="#">
+                                    <div class="box_fav show_hover"><h4><i class="fa fa-star"></i></h4></div>
+                                </a>
+                                <a href="/portfolio-plants/shoppingCart.html">
+                                    <div class="box_cart show_hover"><h4>+ 장바구니 담기</h4></div>
+                                </a>
+                                <a href="/portfolio-plants/productInfo.html">
+                                    <div class="img_pic"><img src="http://i.imgur.com/VLuFSuG.jpg"/></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_info">
+                            <h3 class="item_name">리톱스S</h3>
+                            <h5 class="item_bino">Lithops salicola</h5>
+                            <h3 class="item_price">7000원</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-xs-6 col-mobile item">
+                        <div class="item_img_wrapper">
+                            <div class="item_img">
+                                <a href="#">
+                                    <div class="box_fav show_hover"><h4><i class="fa fa-star"></i></h4></div>
+                                </a>
+                                <a href="/portfolio-plants/shoppingCart.html">
+                                    <div class="box_cart show_hover"><h4>+ 장바구니 담기</h4></div>
+                                </a>
+                                <a href="/portfolio-plants/productInfo.html">
+                                    <div class="img_pic"><img src="http://i.imgur.com/VLuFSuG.jpg"/></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_info">
+                            <h3 class="item_name">리톱스S</h3>
+                            <h5 class="item_bino">Lithops salicola</h5>
+                            <h3 class="item_price">7000원</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-xs-6 col-mobile item">
+                        <div class="item_img_wrapper">
+                            <div class="item_img">
+                                <a href="#">
+                                    <div class="box_fav show_hover"><h4><i class="fa fa-star"></i></h4></div>
+                                </a>
+                                <a href="/portfolio-plants/shoppingCart.html">
+                                    <div class="box_cart show_hover"><h4>+ 장바구니 담기</h4></div>
+                                </a>
+                                <a href="/portfolio-plants/productInfo.html">
+                                    <div class="img_pic"><img src="http://i.imgur.com/VLuFSuG.jpg"/></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_info">
+                            <h3 class="item_name">리톱스S</h3>
+                            <h5 class="item_bino">Lithops salicola</h5>
+                            <h3 class="item_price">7000원</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-xs-6 col-mobile item">
+                        <div class="item_img_wrapper">
+                            <div class="item_img">
+                                <a href="#">
+                                    <div class="box_fav show_hover"><h4><i class="fa fa-star"></i></h4></div>
+                                </a>
+                                <a href="/portfolio-plants/shoppingCart.html">
+                                    <div class="box_cart show_hover"><h4>+ 장바구니 담기</h4></div>
+                                </a>
+                                <a href="/portfolio-plants/productInfo.html">
+                                    <div class="img_pic"><img src="http://i.imgur.com/VLuFSuG.jpg"/></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_info">
+                            <h3 class="item_name">리톱스S</h3>
+                            <h5 class="item_bino">Lithops salicola</h5>
+                            <h3 class="item_price">7000원</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-xs-6 col-mobile item">
+                        <div class="item_img_wrapper">
+                            <div class="item_img">
+                                <a href="#">
+                                    <div class="box_fav show_hover"><h4><i class="fa fa-star"></i></h4></div>
+                                </a>
+                                <a href="/portfolio-plants/shoppingCart.html">
+                                    <div class="box_cart show_hover"><h4>+ 장바구니 담기</h4></div>
+                                </a>
+                                <a href="/portfolio-plants/productInfo.html">
+                                    <div class="img_pic"><img src="http://i.imgur.com/VLuFSuG.jpg"/></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_info">
+                            <h3 class="item_name">리톱스S</h3>
+                            <h5 class="item_bino">Lithops salicola</h5>
+                            <h3 class="item_price">7000원</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="items_pagination">
+                    <nav>
+                      <ul class="pagination">
+                        <li>
+                          <a href="#" aria-label="Previous">
+                            <span aria-hidden="true"><i class="fa fa-arrow-left"></i></span>
+                          </a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                          <a href="#" aria-label="Next">
+                            <span aria-hidden="true"><i class="fa fa-arrow-right"></i></span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="row" id="footer_guide">
+        <div class="wrapper">
+            <div class="col-lg-12 fg">
+                <ul id="fg_infos">
+                    <a href="/portfolio-plants">
+                        <li class="fg_info"><img src="http://i.imgur.com/U1BzlEZ.png?1" id="ft_logo"></li>
+                    </a>
+                    <a href="/portfolio-plants">
+                        <li class="fg_info"><h4 class="ft">회사소개</h4></li>
+                    </a>
+                    <a href="/portfolio-plants">
+                        <li class="fg_info"><h4 class="ft">이용약관</h4></li>
+                    </a>
+                    <a href="/portfolio-plants">
+                        <li class="fg_info"><h4 class="ft">개인정보취급방침</h4></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 fg" id="fg_call">
+                <h4 class="ft_titles">고객센터</h4>
+                <h4 class="ft_strong">000-000-0000</h4>
+                <h4 class="ft_detail">평일 11:00 - 17:00</h4>
+                <h4 class="ft_detail">점심 12:00 - 13:00</h4>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 fg" id="fg_deposit">
+                <h4 class="ft_titles">입금안내</h4>
+                <h4 class="ft_strong">000-000-000000</h4>
+                <h4 class="ft_detail">은행명:신한은행</h4>
+                <h4 class="ft_detail">예금주:리프앤루트</h4>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 fg">
+                <a href="/portfolio-plants/community.html">
+                    <div id="fg_qna">
+                        <h4>1:1 문의</h4>
+                        <h4 class="fg_arrow"><i class="fa fa-arrow-right"></i></h4>
+                    </div>
+                </a>
+                <a href="/portfolio-plants/community.html">
+                    <div id="fg_product">
+                        <h4>입고 문의</h4>
+                        <h4 class="fg_arrow"><i class="fa fa-arrow-right"></i></h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 fg">
+                <div id="fg_mailing">
+                    <h4 class="ft_titles">뉴스레터 구독</h4>
+                    <h4>신상품·이벤트 소식,쿠폰 등의 다양한 혜택을 받을 수 있습니다.</h4>
+                    <div class="input-group" id="mailing_input">
+                        <input type="text" class="form-control input-xs input" placeholder="이메일 주소">
+                        <div class="input-group-addon btn" id="mailing_addon">
+                            <a href="#"><h4><i class="fa fa-envelope"></i></h4></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="footer_info">
+        <div class="wrapper">
+            <div class="col-lg-12" id="fi">
+                <h5><i class="fa fa-exclamation-circle"></i> 본 사이트는 포트폴리오용 비영리 사이트이며, 실제로 운영되지 않습니다.</h5>
+                <h5><i class="fa fa-exclamation-circle"></i> This webpage is non-commercial and sample for web design & publishing portfolio. Copyright © 2016 by rideonthetiger</h5>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="libs/jquery-1.11.3.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
+    <script>
+        function checkScroll(){
+            var startY = $('#top_navbar').height() * 2;
+            if($(window).scrollTop() > startY){
+                $('#top_navbar').addClass("scrolled");
+            }else{
+                $('#top_navbar').removeClass("scrolled");
+            }
+        }
+        if($('#top_navbar').length > 0){
+            $(window).on("scroll load resize", function(){
+                checkScroll();
+            });
+        }
+    </script>
+
+</body>
+</html>
+

@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Portfolio-Plants</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/community.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="top_navbar">
+    <div class="container-fluid navbar_container" id="top_menus">
+        <div class="navbar-header" id="topnav_brand">
+            <a class="navbar-brand" href="/portfolio-plants">
+                <img src="http://i.imgur.com/U1BzlEZ.png?1"/ id="site_logo">
+            </a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id="sm-menu-btn">
+                    <i class="fa fa-bars fa-2x"></i>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="topnav_menu">
+            <ul class="nav navbar-nav" id="main_topnav">
+                <li class="border-menu"><a href="/portfolio-plants/login.html">로그인/회원가입</a></li>
+                <li class="border-menu"><a href="/portfolio-plants/orderNShipping.html">주문배송조회</a></li>
+                <li><a href="/portfolio-plants/community.html">커뮤니티</a></li>
+                <li class="border-menu"><a href="/portfolio-plants/shoppingCart.html">장바구니</a></li>
+            </ul>
+            <ul class="nav navbar-nav" id="sub_topnav">
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">다육식물</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">다육세트</a>
+                </li>
+                <li>
+                    <a href="/portfolio-plants/category_1.html">화분</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">도구</a>
+                </li>
+                <li>
+                    <a href="/portfolio-plants/category_1.html">장식</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">SALE</a>
+                </li>
+                <li class="border-menu" id="sub_topnav_search">
+                   <div class="input-group">
+                        <input type="text" class="form-control input-lg" id="sub_topnav_input">
+                        <div class="input-group-addon btn" id="nav_search_addon">
+                            <a href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div><!-- /.container-fluid -->
+    <div class="container-fluid navbar_container" id="main_navbar">
+        <div class="navbar-collapse collapse" id="mainnav_menu">
+            <ul class="nav navbar-nav" id="mainnav_menus">
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">다육식물</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">다육세트</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">화분</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">도구</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">장식</a>
+                </li>
+                <li class="border-menu">
+                    <a href="/portfolio-plants/category_1.html">SALE</a>
+                </li>
+                <li class="border-menu" id="mainnav_search_xs">
+                   <div class="input-group" id="nav_search_input_xs">
+                        <input type="text" class="form-control input-lg">
+                        <div class="input-group-addon btn" id="nav_search_addon">
+                            <a href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav" id="mainnav_search">
+                <li class="border-menu">
+                      <form class="navbar-form navbar-left" role="search">
+                       <div class="input-group" id="nav_search_input">
+                            <input type="text" class="form-control input-lg">
+                            <div class="input-group-addon btn" id="nav_search_addon">
+                                <a href=""><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                      </form>
+                </li>
+            </ul>
+        </div>
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2 col-md-2" id="supportCategory">
+            <ul id="categoryList">
+                <li><a href="/portfolio-plants/community.html"><h4 class="ctg_side_titles">공지사항</h4></a></li>
+                <li><a href="/portfolio-plants/community.html"><h4 class="ctg_side_titles">이벤트</h4></a></li>
+                <li><a href="/portfolio-plants/community.html"><h4 class="ctg_side_titles">질문 답변</h4></a></li>
+                <li><a href="/portfolio-plants/community.html"><h4 class="ctg_side_titles">구매 후기</h4></a></li>
+                <hr>
+                <li><a href="/portfolio-plants/community.html"><h4 class="ctg_side_titles">재입고 소식</h4></a></li>
+                <li><a href="/portfolio-plants/community.html"><h4 class="ctg_side_titles">입고 문의</h4></a></li>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-xs-12" id="sideMenu_select">
+            <h3 class="ctg_title_sm">커뮤니티</h4>
+            <div class="row" id="sideMenuCategory">
+                <a href="/portfolio-plants/community.html">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 community_ctg">
+                        <h4 class="name">공지사항</h4>
+                    </div>
+                </a>
+                <a href="/portfolio-plants/community.html">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 community_ctg">
+                        <h4 class="name">이벤트</h4>
+                    </div>
+                </a>
+                <a href="/portfolio-plants/community.html">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 community_ctg">
+                        <h4 class="name">질문 답변</h4>
+                    </div>
+                </a>
+                <a href="/portfolio-plants/community.html">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 community_ctg">
+                        <h4 class="name">구매 후기</h4>
+                    </div>
+                </a>
+                <a href="/portfolio-plants/community.html">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 community_ctg">
+                        <h4 class="name">재입고 소식</h4>
+                    </div>
+                </a>
+                <a href="/portfolio-plants/community.html">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 community_ctg">
+                        <h4 class="name">입고 문의</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12" id="support_container">
+            <div class="row" id="support_info">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <h3 class="support_title">고객센터</h3>
+                    <h4 class="support_lg">000-000-0000</h4>
+                    <h4 class="support_sm">평일 11:00 - 17:00</h4>
+                    <h4 class="support_sm">점심 12:00 - 13:00</h4>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <h3 class="support_title">입금안내</h3>
+                    <h4 class="support_lg">000-000-000000</h4>
+                    <h4 class="support_sm">은행명:신한은행</h4>
+                    <h4 class="support_sm">예금주:리프앤루트</h4>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+                    <h3 class="support_title">교환/반품 주소</h3>
+                    <h4>00-000</h4>
+                    <h4>서울특별시 00구 00대로 000</h4>
+                    <h4>받는 이: 리프앤루트</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9 ctgs">
+                    <div class="ctg_title">
+                        <h4 class="ctg_name">공지사항</h4>
+                        <h5 class="ctg_more"><a href="/portfolio-plants/community.html">더보기</a></h5>
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="title th_title">제목</th>
+                                <th scope="col" class="date th_date">작성일</th>
+                             </tr>
+                         </thead>
+                        <tbody>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html">2016년 1월 카드사 무이자할부 안내</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html">2016년 1월 카드사 무이자할부 안내</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html">2016년 1월 카드사 무이자할부 안내</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html">2016년 1월 카드사 무이자할부 안내</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html">2016년 1월 카드사 무이자할부 안내</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html">2016년 1월 카드사 무이자할부 안내</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-lg-3 ctgs">
+                    <div class="ctg_title">
+                        <h4 class="ctg_name">이벤트</h4>
+                        <h5 class="ctg_more"><a href="/portfolio-plants/community.html">더보기</a></h5>
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="title th_title">제목</th>
+                             </tr>
+                         </thead>
+                        <tbody>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html">2016년 1월</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html">2016년 1월</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html">2016년 1월</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html">2016년 1월</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html">2016년 1월</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html">2016년 1월</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-lg-12 ctgs">
+                    <div class="ctg_title">
+                        <h4 class="ctg_name">재입고 소식</h4>
+                        <h5 class="ctg_more"><a href="/portfolio-plants/community.html">더보기</a></h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-3 col-xs-6 restock_items">
+                            <a href="/portfolio-plants/productInfo.html">
+                                <div class="img_pic">
+                                    <img src="http://i.imgur.com/VLuFSuG.jpg"/>
+                                </div>
+                            </a>
+                                <div class="img_info">
+                                    <h4 class="item_name">리톱스S 외 5건</h4>
+                                    <h4 class="item_price">2015-12-25</h4>
+                                </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-3 col-xs-6 restock_items">
+                            <a href="/portfolio-plants/productInfo.html">
+                                <div class="img_pic">
+                                    <img src="http://i.imgur.com/VLuFSuG.jpg"/>
+                                </div>
+                            </a>
+                            <div class="img_info">
+                                <h4 class="item_name">리톱스S 외 5건</h4>
+                                <h4 class="item_price">2015-12-25</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-3 hidden-xs restock_items">
+                            <a href="/portfolio-plants/productInfo.html">
+                                <div class="img_pic">
+                                    <img src="http://i.imgur.com/VLuFSuG.jpg"/>
+                                </div>
+                            </a>
+                            <div class="img_info">
+                                <h4 class="item_name">리톱스S 외 5건</h4>
+                                <h4 class="item_price">2015-12-25</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-3 hidden-xs restock_items">
+                            <a href="/portfolio-plants/productInfo.html">
+                                <div class="img_pic">
+                                    <img src="http://i.imgur.com/VLuFSuG.jpg"/>
+                                </div>
+                            </a>
+                            <div class="img_info">
+                                <h4 class="item_name">리톱스S 외 5건</h4>
+                                <h4 class="item_price">2015-12-25</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 ctgs">
+                    <div class="ctg_title">
+                        <h4 class="ctg_name">질문 답변</h4>
+                        <h5 class="ctg_more"><a href="/portfolio-plants/community.html">더보기</a></h5>
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="title th_title">제목</th>
+                                <th scope="col" class="date th_date">작성일</th>
+                             </tr>
+                         </thead>
+                        <tbody>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html"><strong>[상품 문의]</strong> 리톱스</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html"><strong>[상품 문의]</strong> 리톱스</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html"><strong>[상품 문의]</strong> 리톱스</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html"><strong>[상품 문의]</strong> 리톱스</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html"><strong>[상품 문의]</strong> 리톱스</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html"><strong>[상품 문의]</strong> 리톱스</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-lg-4 ctgs">
+                    <div class="ctg_title">
+                        <h4 class="ctg_name">입고 문의</h4>
+                        <h5 class="ctg_more"><a href="/portfolio-plants/community.html">더보기</a></h5>
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="title th_title_sm">제목</th>
+                                <th scope="col" class="date th_date_sm">작성일</th>
+                             </tr>
+                         </thead>
+                        <tbody>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html"><strong>[재입고 문의]</strong> 리톱스</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html"><strong>[재입고 문의]</strong> 리톱스</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html"><strong>[재입고 문의]</strong> 리톱스</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html"><strong>[재입고 문의]</strong> 리톱스</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html"><strong>[재입고 문의]</strong> 리톱스</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="title">
+                                    <a href="/portfolio-plants/community.html"><strong>[재입고 문의]</strong> 리톱스</a>
+                                </td>
+                                <td class="date">
+                                    15-12-25
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="row" id="footer_guide">
+        <div class="wrapper">
+            <div class="col-lg-12 fg">
+                <ul id="fg_infos">
+                    <a href="/portfolio-plants">
+                        <li class="fg_info"><img src="http://i.imgur.com/U1BzlEZ.png?1" id="ft_logo"></li>
+                    </a>
+                    <a href="/portfolio-plants">
+                        <li class="fg_info"><h4 class="ft">회사소개</h4></li>
+                    </a>
+                    <a href="/portfolio-plants">
+                        <li class="fg_info"><h4 class="ft">이용약관</h4></li>
+                    </a>
+                    <a href="/portfolio-plants">
+                        <li class="fg_info"><h4 class="ft">개인정보취급방침</h4></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 fg" id="fg_call">
+                <h4 class="ft_titles">고객센터</h4>
+                <h4 class="ft_strong">000-000-0000</h4>
+                <h4 class="ft_detail">평일 11:00 - 17:00</h4>
+                <h4 class="ft_detail">점심 12:00 - 13:00</h4>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6 fg" id="fg_deposit">
+                <h4 class="ft_titles">입금안내</h4>
+                <h4 class="ft_strong">000-000-000000</h4>
+                <h4 class="ft_detail">은행명:신한은행</h4>
+                <h4 class="ft_detail">예금주:리프앤루트</h4>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 fg">
+                <a href="/portfolio-plants/community.html">
+                    <div id="fg_qna">
+                        <h4>1:1 문의</h4>
+                        <h4 class="fg_arrow"><i class="fa fa-arrow-right"></i></h4>
+                    </div>
+                </a>
+                <a href="/portfolio-plants/community.html">
+                    <div id="fg_product">
+                        <h4>입고 문의</h4>
+                        <h4 class="fg_arrow"><i class="fa fa-arrow-right"></i></h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 fg">
+                <div id="fg_mailing">
+                    <h4 class="ft_titles">뉴스레터 구독</h4>
+                    <h4>신상품·이벤트 소식,쿠폰 등의 다양한 혜택을 받을 수 있습니다.</h4>
+                    <div class="input-group" id="mailing_input">
+                        <input type="text" class="form-control input-xs input" placeholder="이메일 주소">
+                        <div class="input-group-addon btn" id="mailing_addon">
+                            <a href="#"><h4><i class="fa fa-envelope"></i></h4></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="footer_info">
+        <div class="wrapper">
+            <div class="col-lg-12" id="fi">
+                <h5><i class="fa fa-exclamation-circle"></i> 본 사이트는 포트폴리오용 비영리 사이트이며, 실제로 운영되지 않습니다.</h5>
+                <h5><i class="fa fa-exclamation-circle"></i> This webpage is non-commercial and sample for web design & publishing portfolio. Copyright © 2016 by rideonthetiger</h5>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="libs/jquery-1.11.3.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
+    <script>
+        function checkScroll(){
+            var startY = $('#top_navbar').height() * 2;
+            if($(window).scrollTop() > startY){
+                $('#top_navbar').addClass("scrolled");
+            }else{
+                $('#top_navbar').removeClass("scrolled");
+            }
+        }
+        if($('#top_navbar').length > 0){
+            $(window).on("scroll load resize", function(){
+                checkScroll();
+            });
+        }
+    </script>
+</body>
+</html>
+
